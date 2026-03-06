@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars: Contactanos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../img/vv_preview_rev_1.png" type="image/x-icon">
+</head>
+<header class="header">
+      <div class="logo">Star Wars III
+      </div>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+  
+  <label for="menu-toggle" class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+    <nav class="nav" id="nav">
+      <ul class="nav-links">
+        <li><a href="../inicio/index.html">Inicio</a></li>
+        <li><a href="../ryp/index.html">Reparto y producción</a></li>
+        <li><a href="../datos/index.html">Datos y filmación</a></li>
+        <li><a href="../nominacion/index.html">Nominaciones</a></li>
+        <li><a href="index.html">Contacto</a></li>
+      </ul>
+       </nav>
+    </header>
+<body>
+  
+<div class="formulario-contacto">
+  <h2>Dejá tu comentario</h2>
+  <form action="../recibir/index.html" method="GET">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="gmail">Correo Gmail:</label>
+    <input type="email" id="gmail" name="gmail" pattern=".+@gmail\.com" required>
+
+    <label for="comentario">Comentario:</label>
+    <textarea id="comentario" name="comentario" rows="5" required></textarea>
+
+    <button type="submit">Enviar</button> <a href="../recibir/index.html"></a>
+  </form>
+</div>
+<footer>May the Force be with you </footer>
+</body>
+</html>
